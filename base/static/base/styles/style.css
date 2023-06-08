@@ -1,0 +1,25 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* all below styles were for testing, remove them and write your own  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2d2d2e;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.card > img{
+    width: 100%;
+}

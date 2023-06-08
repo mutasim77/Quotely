@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/97543b6a54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'base/styles/style.css' %}">
+
+    <!-- Your icon will be here-->
+    <!-- <link rel="shortcut icon" href="{% static 'base/images/icon.png' %}" type="image/x-icon">  -->
+    <title>Quotely</title>
+</head>
+
+<body>
+
+    <!-- simple example of printing all quotes using for loop   -->
+    {% for post in posts %}
+    <div class="card">
+        <div>
+            <img src="{{post.image}}" alt="">
+            <h1>{{post.author}}</h1>
+        </div>
+        <p>{{post.content}}</p>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
