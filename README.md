@@ -1,3 +1,1 @@
 # Quotely 🖋
-
-hello cute onee
