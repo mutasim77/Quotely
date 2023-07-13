@@ -4,14 +4,15 @@
 /* all below styles were for testing, remove them and write your own  */
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to left, #ad5389, #3c1053);
 }
 
-.card{
+.card {
   width: 330px;
   height: 400px;
 }
 
-.card > img{
+.card > img {
   object-fit: cover;
 }
 
