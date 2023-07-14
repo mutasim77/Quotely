@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,18 +22,16 @@
 
 
     <!-- simple example of printing all quotes using for loop   -->
-    <div class="container mt-5 d-flex flex-column justify-content-center">
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="container">
+        <button type="button" class="add-quote" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Add Quote
         </button>
-        <div class="w-100 justify-content-center d-flex gap-5 mt-5 flex-wrap">
+        <div class="cards">
             {% for post in posts %}
-            <div class="card">
-                <img src="{{post.image.url}}" class="w-100 h-50" alt="{{pots.author}}">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">{{post.author}}</h5>
-                    <p class="card-text">{{post.content}}</p>
-                </div>
+            <div class="card glassmorphism">
+                <img id="image" src="{{post.image.url}}" alt="{{pots.author}}">
+                <h class="content"> {{post.author}} </h>
+                <p class="writer">{{post.content}}</p>
             </div>
             {% endfor %}
         </div>
