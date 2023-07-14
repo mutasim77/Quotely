@@ -20,9 +20,14 @@
 
     {% include 'base/includes/modal.html' %}
 
-
     <!-- simple example of printing all quotes using for loop   -->
     <div class="container">
+        <header class="header">
+            <div id="logo">
+                <img src="{% static 'base/images/logo.png' %}" alt="logo">
+            </div>
+        </header>
+        
         <button type="button" class="add-quote" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Add Quote
         </button>

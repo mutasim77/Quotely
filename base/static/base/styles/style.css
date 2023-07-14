@@ -29,7 +29,7 @@ body {
   height: 0;
 }
 
-.logo {
+#logo {
   width: 200px;
   margin-bottom: 30px;
 }
@@ -37,8 +37,7 @@ body {
 .header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 0 70px;
+  justify-content: center;
 }
 
 .modes {
