@@ -30,3 +30,7 @@ Additionally, if you find BookWise interesting or helpful, we would greatly appr
 Good luck! 🤗
 
 ## Screenshots 🖼
+
+- 1 <img width="1000" alt="Screenshot 2023-08-20 at 1 16 40 PM" src="https://github.com/mutasim77/Quotely/assets/96326525/b3f55ce5-94ed-498a-958e-5ad04c7e4543">
+
+- 2 <img width="1000" alt="Screenshot 2023-08-20 at 1 17 23 PM" src="https://github.com/mutasim77/Quotely/assets/96326525/399ee3fb-ea6f-41fd-834a-15e0f0728fdf">
