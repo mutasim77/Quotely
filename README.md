@@ -16,7 +16,7 @@
 
 ## Installation 🖥
 - Make sure that you have Python🐍 and Django installed on your machine;
-- Clone the repository: ```git clone https://github.com/mutasim77/BookWise.git```;
+- Clone the repository: ```git clone https://github.com/mutasim77/Quotely.git```;
 - Navigate to the project directory: cd Quotely;
 - Start the development server: python3 manage.py runserver
 Enjoy your exploring;
